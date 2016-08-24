@@ -4,8 +4,13 @@
     "debugType": "portable",
     "emitEntryPoint": true
   },
-  "dependencies": {},
-  "frameworks": {
+"dependencies": {
+        "NETStandard.Library": "1.6"
+    },
+"frameworks": {
+    "netstandardapp1.5": {
+            "imports": "dnxcore50"
+        },
     "netcoreapp1.0": {
       "dependencies": {
         "Microsoft.NETCore.App": {
